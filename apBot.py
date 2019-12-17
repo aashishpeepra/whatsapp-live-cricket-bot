@@ -1,4 +1,4 @@
-#Do pip install twilio and requets
+#Do pip install twilio and requests
 from twilio.rest import Client
 import requests
 import datetime
