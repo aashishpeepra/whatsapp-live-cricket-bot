@@ -17,7 +17,7 @@ data=resp.json()["matches"]
 #Returns filtered matches on the basis of the team whose match you want
 def return_all_match(teamName,data):
     """
-    teamName: any cricket team name 
+    teamName: any cricket team name panashekunaka84 
     data: the data that we get from the API call
     """
     allMatch=[]
@@ -89,7 +89,7 @@ if __name__=="__main__":
     for each in allPresent:
         to_send=readable(each) 
         message = client.messages.create(
-            to="whatsapp:+910000000000", #replace zeros with sender's number
+            to="whatsapp:+263712117185", #replace zeros with sender's number
             from_="whatsapp:+1000000000", #Replace zeros with twilio's number
             body=to_send)
         time.sleep(2)
